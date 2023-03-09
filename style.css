@@ -41,6 +41,10 @@ nav button{
     border-radius: 8px;
 } 
 
+header .logo3{
+    display: none;
+}
+
 header div{
     width: 30%;
 }
@@ -200,8 +204,12 @@ footer img{
         width: 100%;
     }
     
-   nav .logo3{
+   header .logo3{
         justify-content: flex-end;
+    }
+
+    header .logo3{
+        display: flex;
     }
 
     header{
